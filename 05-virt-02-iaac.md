@@ -37,9 +37,11 @@ Ansible
 Решение:
 
 * Графический интерфейс VirtualBox
+
   Версия 6.1.26 r145957 (Qt5.6.2)
 
 * C:\Users\SAM>vagrant -v
+
   Vagrant 2.2.19
 
 *
