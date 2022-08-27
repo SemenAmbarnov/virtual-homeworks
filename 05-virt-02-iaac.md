@@ -58,5 +58,7 @@ Ansible
   
   python version = 3.8.10 (default, Nov 26 2021, 20:14:08) [GCC 9.3.0]
   
+  ### Задача №4
+  
   
   
