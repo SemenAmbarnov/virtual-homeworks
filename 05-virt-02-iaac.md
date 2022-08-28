@@ -101,7 +101,7 @@ Windows is not officially supported for the Ansible Control Machine.
 Please check https://docs.ansible.com/intro_installation.html#control-machine-requirements
 `playbook` does not exist on the host: C:/Users/SAM/ansible/provision.yml
 
-C:\Users\SAM\vagrant_conf>
+C:\Users\SAM\vagrant_conf> 
   
   
   
