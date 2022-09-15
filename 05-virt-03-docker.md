@@ -1,2 +1,6 @@
-# Homeworks
-Homeworks
+# Домашнее задание к занятию "Введение. Экосистема. Архитектура. Жизненный цикл Docker контейнера"
+
+
+### Задача №1
+
+![Screenshot from 2022-09-15 12-44-57](https://user-images.githubusercontent.com/92155007/190375825-b102dec8-375d-470f-b402-17fe1f080214.png)
