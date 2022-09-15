@@ -3,4 +3,24 @@
 
 ### Задача №1
 
+Сценарий выполения задачи:
+
+*создайте свой репозиторий на https://hub.docker.com;
+*выберете любой образ, который содержит веб-сервер Nginx;
+*создайте свой fork образа;
+*реализуйте функциональность: запуск веб-сервера в фоне с индекс-страницей, содержащей HTML-код ниже:
+     <html>
+     <head>
+     Hey, Netology
+     </head>
+     <body>
+     <h1>I’m DevOps Engineer!</h1>
+     </body>
+     </html>
+*Опубликуйте созданный форк в своем репозитории и предоставьте ответ в виде ссылки на https://hub.docker.com/username_repo.
+
+Решение:
+
 ![Screenshot from 2022-09-15 12-44-57](https://user-images.githubusercontent.com/92155007/190375825-b102dec8-375d-470f-b402-17fe1f080214.png)
+
+https://hub.docker.com/r/samborsch/nginx
