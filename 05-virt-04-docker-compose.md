@@ -17,4 +17,7 @@
 
 Решение:
 
+![image](https://user-images.githubusercontent.com/92155007/191219094-8966c5dd-4b9f-4e30-8de9-679b614f15b2.png)
+
+
 
