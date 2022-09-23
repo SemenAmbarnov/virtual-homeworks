@@ -8,8 +8,9 @@
 Скриншот страницы, как на слайде из презентации (слайд 37).
 
 * Решение:
+* 
+![Screenshot from 2022-09-23 10-40-36](https://user-images.githubusercontent.com/92155007/191904993-141a1d22-ab31-4f2c-89d0-209e2fb8c6f9.png)
 
-![Screenshot from 2022-09-20 12-30-10](https://user-images.githubusercontent.com/92155007/191210241-4be1ee81-6802-46f5-8e34-8914b1ffe6f7.png)
 
 ### Задача №2
 
