@@ -26,4 +26,5 @@
 
 Решение:
 
+![Screenshot from 2022-09-26 15-45-54](https://user-images.githubusercontent.com/92155007/192268521-492d2431-7dc5-4994-9e90-e979fa72b5dd.png)
 
