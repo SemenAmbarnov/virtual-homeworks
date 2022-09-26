@@ -18,8 +18,7 @@
 
 Решение:
 
-![Screenshot from 2022-09-23 10-55-24](https://user-images.githubusercontent.com/92155007/191906794-634301f1-3997-40eb-b725-90fa270194b7.png)
-
+![Screenshot from 2022-09-26 15-26-45](https://user-images.githubusercontent.com/92155007/192265375-dda700fb-c6eb-46c4-a515-db8b4ae54b34.png)
 
 ### Задача №3
 
