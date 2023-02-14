@@ -8,33 +8,7 @@
 
 Решение: 
 
-version: "2"
-
-volumes:
-  postgres_data:
-  backup_data:
-
-networks:
-  postgres:
-    driver: bridge
-
-
-services:
-
-  postgreesql:
-    image: postgres:12
-    container_name: postgreesql
-    environment:
-      - PGDATA=/var/lib/postgresql/data/pgdata
-      - POSTGRES_PASSWORD=postgres
-      - POSTGRES_DB=netology
-      - POSTGRES_USER=postgres
-    volumes:
-      - postgres_data:/var/lib/postgresql/data/pgdata
-      - backup_data:/backup
-    restart: always
-    networks:
-      - postgres
+ file:///home/semen/Pictures/Screenshots/Screenshot%20from%202023-02-14%2012-51-25.png
 
 ### Задача №2
 
