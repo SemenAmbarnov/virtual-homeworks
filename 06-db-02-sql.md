@@ -15,13 +15,13 @@
 
 В БД из задачи 1:
 
->создайте пользователя test-admin-user и БД test_db \
->в БД test_db создайте таблицу orders и clients (спeцификация таблиц ниже) \
->предоставьте привилегии на все операции пользователю test-admin-user на таблицы БД test_db \
->создайте пользователя test-simple-user \
->предоставьте пользователю test-simple-user права на SELECT/INSERT/UPDATE/DELETE данных таблиц БД test_db \
+создайте пользователя test-admin-user и БД test_db \
+в БД test_db создайте таблицу orders и clients (спeцификация таблиц ниже) \
+предоставьте привилегии на все операции пользователю test-admin-user на таблицы БД test_db \
+создайте пользователя test-simple-user \
+предоставьте пользователю test-simple-user права на SELECT/INSERT/UPDATE/DELETE данных таблиц БД test_db \
 
->Таблица orders: 
+Таблица orders: 
 
 id (serial primary key) \
 наименование (string) \
@@ -42,4 +42,9 @@ SQL-запрос для выдачи списка пользователей с 
 
 Решение: 
 
+![image](https://user-images.githubusercontent.com/92155007/218735743-dc3bc551-6800-4580-9413-0d9c0f9dc716.png)
+
+![image](https://user-images.githubusercontent.com/92155007/218735826-3ec03bb0-b616-4f0f-b636-62a8e3a66e31.png)
+
+![image](https://user-images.githubusercontent.com/92155007/218735886-db52dca3-4dc3-4088-a62d-11158f12c7e8.png)
 
