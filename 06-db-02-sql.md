@@ -48,3 +48,10 @@ SQL-запрос для выдачи списка пользователей с 
 
 ![image](https://user-images.githubusercontent.com/92155007/218735886-db52dca3-4dc3-4088-a62d-11158f12c7e8.png)
 
+SQL-запрос:
+
+SELECT grantee, table_name, privilege_type 
+FROM information_schema.table_privileges
+WHERE table_name='clients' or table_name='orders';
+
+![image](https://user-images.githubusercontent.com/92155007/218751585-8028e2ae-4ece-4ead-a91a-9fdeffd98d6d.png)
