@@ -8,7 +8,8 @@
 
 Решение: 
 
- file:///home/semen/Pictures/Screenshots/Screenshot%20from%202023-02-14%2012-51-25.png
+![image](https://user-images.githubusercontent.com/92155007/218685869-6cc6826e-755a-4d7c-b7d4-286c5bf84588.png)
+
 
 ### Задача №2
 
