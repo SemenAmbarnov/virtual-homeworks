@@ -150,4 +150,19 @@ Filter: (orders_number IS NOT NULL) - сообщает какие фильтры
 
 Решение:
 
+Снимаю бэкап базы:
+
+pg_dumpall -U postgres > /backup/test_db
+
+Вывод ls вольюма backup:
+
+![image](https://user-images.githubusercontent.com/92155007/218980804-b5aae8bb-030f-4ade-8f7d-ceadd7b86637.png)
+
+Останавливаю контейнер:
+
+![image](https://user-images.githubusercontent.com/92155007/218981451-3bec4e61-bba2-4909-8650-7b8f51c05279.png)
+
+
+
+
 
