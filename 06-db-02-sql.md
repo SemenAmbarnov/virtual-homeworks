@@ -111,6 +111,11 @@ WHERE table_name='clients' or table_name='orders';
 
 Решение:
 
+update clients set orders_number = (select id from orders where orders_decription = 'Книга') where last_name = 'Иванов Иван Иванович';
+update clients set orders_number = (select id from orders where orders_decription = 'Монитор') where last_name = 'Петров Петр Петрович';
+update clients set orders_number = (select id from orders where orders_decription = 'Гитара') where last_name = 'Иоганн Себастьян Бах';
 
+![image](https://user-images.githubusercontent.com/92155007/218963282-18cd48c1-5f27-4e90-b14c-ea32d5617356.png)
 
+### Задача №5
 
