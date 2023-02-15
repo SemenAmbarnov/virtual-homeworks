@@ -162,6 +162,31 @@ pg_dumpall -U postgres > /backup/test_db
 
 ![image](https://user-images.githubusercontent.com/92155007/218981451-3bec4e61-bba2-4909-8650-7b8f51c05279.png)
 
+Стартую новый контейнер( тут немного накосячил с путями к вольюму, пришлось прописывать абсолютный путь к бэкапу. Урок уяснил))
+
+docker run --rm -d -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=netology -e POSTGRES_DB=test_db -v /var/lib/docker/volumes/docker_backup_data:/backup --name postgres postgres:12
+
+
+![image](https://user-images.githubusercontent.com/92155007/219006278-01a48bb9-21e3-4f27-bcbd-960d65370ed9.png)
+
+Убеждаемся что бэкап протянулся в контейнер
+
+![image](https://user-images.githubusercontent.com/92155007/219006503-1b932589-1fe1-43c2-9d7b-db673b62ee8c.png)
+
+Далее заходим в Psql и убеждаемся что база пуста:
+
+postgres=# \d
+Did not find any relations.
+
+Разворачиваем базу с бэкапа:
+
+root@36c00535ff11:/# psql -U postgres -f backup/_data/test_db
+
+Убеждаемся что всё на месте:
+
+![image](https://user-images.githubusercontent.com/92155007/219007303-9b8a2069-c439-486c-9c74-104b756d27e0.png)
+
+
 
 
 
