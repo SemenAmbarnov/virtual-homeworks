@@ -175,7 +175,7 @@ docker run --rm -d -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=netology -e PO
 
 Далее заходим в Psql и убеждаемся что база пуста:
 
-postgres=# \d
+postgres=# \d \
 Did not find any relations.
 
 Разворачиваем базу с бэкапа:
