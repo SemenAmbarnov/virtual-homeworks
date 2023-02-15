@@ -85,3 +85,11 @@ WHERE table_name='clients' or table_name='orders';
 
 Решение:
 
+![image](https://user-images.githubusercontent.com/92155007/218952109-f2a1e634-24f5-49fd-ae58-a344bcf37db3.png)
+
+![Screenshot from 2023-02-15 10-42-32](https://user-images.githubusercontent.com/92155007/218952311-7e8c07a7-2bcc-4247-8fb5-03c7ef588c2f.png)
+
+
+
+
+
