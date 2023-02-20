@@ -111,8 +111,10 @@ socket=/var/run/mysqld/mysqld.sock \
 secure-file-priv=NULL \
 user=mysql
 
-pid-file=/var/run/mysqld/mysqld.pid \
-[client] \ 
+pid-file=/var/run/mysqld/mysqld.pid
+
+[client]
+
 socket=/var/run/mysqld/mysqld.sock 
 
 !includedir /etc/mysql/conf.d/ 
