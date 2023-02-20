@@ -26,6 +26,24 @@ Docker-compose файл:
 
 ![image](https://user-images.githubusercontent.com/92155007/220086653-ca88fefb-5ad6-47b1-8b19-3aced88352ee.png)
 
-
+Список созданныйх баз:
 
 ![image](https://user-images.githubusercontent.com/92155007/220087054-8bd828f4-7201-4b20-92cf-2580e64aef52.png)
+
+Восстанавливаю базу из бэкапа:
+
+bash-4.4# mysql -b mysql -p < /backup/test_dump.sql 
+
+Переключаюсь на базу и вывлжу статус:
+
+![image](https://user-images.githubusercontent.com/92155007/220087708-b1978127-1101-4456-8e3f-4573c5feb1e4.png)
+
+Вывожу список таблиц:
+
+![image](https://user-images.githubusercontent.com/92155007/220087804-4f04f064-4c0e-41b4-a883-f26423984926.png)
+
+Вывожу колличество записей:
+
+![image](https://user-images.githubusercontent.com/92155007/220087966-842ea730-abb6-4fed-9537-6129e2689d4e.png)
+
+
