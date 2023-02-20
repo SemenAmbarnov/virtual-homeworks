@@ -120,7 +120,7 @@ socket=/var/run/mysqld/mysqld.sock
 !includedir /etc/mysql/conf.d/ 
 
 
-innodb_flush_log_at_trx_commit = 0 \ 
+innodb_flush_log_at_trx_commit = 0 \
 innodb_file_per_table = 1 \
 innodb_log_buffer_size	= 1M \
 key_buffer_size = 2448М \
