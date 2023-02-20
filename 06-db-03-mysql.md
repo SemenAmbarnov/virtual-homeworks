@@ -22,6 +22,10 @@
 
 Решение:
 
+Docker-compose файл:
+
 ![image](https://user-images.githubusercontent.com/92155007/220086653-ca88fefb-5ad6-47b1-8b19-3aced88352ee.png)
+
+
 
 ![image](https://user-images.githubusercontent.com/92155007/220087054-8bd828f4-7201-4b20-92cf-2580e64aef52.png)
