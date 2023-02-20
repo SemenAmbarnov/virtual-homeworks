@@ -104,22 +104,22 @@ bash-4.4# mysql -b mysql -p < /backup/test_dump.sql
 
 Решение:
 
-[mysqld] \
+[mysqld] 
 
 datadir=/var/lib/mysql \
 socket=/var/run/mysqld/mysqld.sock \
 secure-file-priv=NULL \
-user=mysql \
+user=mysql
 
 pid-file=/var/run/mysqld/mysqld.pid \
-[client] \
-socket=/var/run/mysqld/mysqld.sock \
+[client] \ 
+socket=/var/run/mysqld/mysqld.sock 
 
-!includedir /etc/mysql/conf.d/ \
+!includedir /etc/mysql/conf.d/ 
 
 
 innodb_flush_log_at_trx_commit = 0 \ 
 innodb_file_per_table = 1 \
 innodb_log_buffer_size	= 1M \
 key_buffer_size = 2448М \
-max_binlog_size	= 100M \
+max_binlog_size	= 100M 
