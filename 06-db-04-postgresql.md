@@ -71,7 +71,7 @@
 
 Решение:
 
-root@6533e008d3bb:/# pg_dump -U postgres -d test_database > /backup/postgres_dump.sql
+root@6533e008d3bb:/# pg_dump -U postgres -d test_database > /backup/postgres_dump.sql \
 root@6533e008d3bb:/# ls -la /backup/ \
 postgres_dump.sql  test_dump.sql
 
