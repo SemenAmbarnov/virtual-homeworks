@@ -71,9 +71,9 @@
 
 Решение:
 
-root@6533e008d3bb:/# pg_dump -U postgres -d test_database > /backup/postgres_dump.sql \
-root@6533e008d3bb:/# ls -la /backup/ \
-postgres_dump.sql  test_dump.sql
+Снимаю бэкап БД:
+
+![image](https://user-images.githubusercontent.com/92155007/221570581-ddcbc875-b4bb-4c9d-94aa-ae472ff499f7.png)
 
 
 Я бы добавил признак UNIQUE
