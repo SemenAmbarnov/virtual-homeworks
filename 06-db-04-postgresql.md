@@ -43,4 +43,15 @@
 
 Решение:
 
+Раскатываю бэкап в созданную базу:
+
+![image](https://user-images.githubusercontent.com/92155007/221566350-1060488a-66ed-43b6-84f7-b62dd2cd63a0.png)
+
+Захожу в postgree и переключаюсь в test_database и далее провожу операцию ANALYZE и вывожу столбец orders:
+
+![image](https://user-images.githubusercontent.com/92155007/221566884-2ae76864-ac77-4779-9d1d-1620fece9cde.png)
+
+
+
+
 
