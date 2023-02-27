@@ -17,3 +17,30 @@
 
 Решение:
 
+\l - список БД
+\c[onnect] {[DBNAME|- USER|- HOST|- PORT|-] | conninfo} connect to new database (currently "postgres") - подключение к БД
+\dt[S+] [PATTERN] - список таблиц
+\d[S+]  NAME - описание содержимого таблиц
+\q - выход из psql
+
+
+## Задача 2
+
+Используя `psql`, создайте БД `test_database`.
+
+Изучите [бэкап БД](https://github.com/netology-code/virt-homeworks/tree/virt-11/06-db-04-postgresql/test_data).
+
+Восстановите бэкап БД в `test_database`.
+
+Перейдите в управляющую консоль `psql` внутри контейнера.
+
+Подключитесь к восстановленной БД и проведите операцию ANALYZE для сбора статистики по таблице.
+
+Используя таблицу [pg_stats](https://postgrespro.ru/docs/postgresql/12/view-pg-stats), найдите столбец таблицы `orders` 
+с наибольшим средним значением размера элементов в байтах.
+
+**Приведите в ответе** команду, которую вы использовали для вычисления, и полученный результат.
+
+Решение:
+
+
