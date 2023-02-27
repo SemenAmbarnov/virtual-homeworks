@@ -63,6 +63,21 @@
 
 Решение:
 
+## Задача 4
+
+Используя утилиту `pg_dump`, создайте бекап БД `test_database`.
+
+Как бы вы доработали бэкап-файл, чтобы добавить уникальность значения столбца `title` для таблиц `test_database`?
+
+Решение:
+
+root@6533e008d3bb:/# pg_dump -U postgres -d test_database > /backup/postgres_dump.sql
+root@6533e008d3bb:/# ls -la /backup/ \
+postgres_dump.sql  test_dump.sql
 
 
+Я бы добавил признак UNIQUE
 
+![image](https://user-images.githubusercontent.com/92155007/221568898-9a11fbbd-d2e7-4234-ba9e-59f45c7ff405.png)
+
+title  | character varying(80) |           | not null UNIQUE
