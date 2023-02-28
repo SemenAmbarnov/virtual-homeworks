@@ -128,3 +128,7 @@ COMMIT;
 ![image](https://user-images.githubusercontent.com/92155007/221568898-9a11fbbd-d2e7-4234-ba9e-59f45c7ff405.png)
 
 title  | character varying(80) |           | not null UNIQUE
+
+Добавил значение в дамп файл.
+
+
