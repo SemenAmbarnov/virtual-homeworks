@@ -131,4 +131,5 @@ title  | character varying(80) |           | not null UNIQUE
 
 Добавил значение в дамп файл.
 
+![Screenshot 2023-02-28 230313](https://user-images.githubusercontent.com/92155007/221954658-c25a6407-5068-446e-9d26-fa9693b4b342.png)
 
