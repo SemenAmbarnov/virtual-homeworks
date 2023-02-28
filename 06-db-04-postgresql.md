@@ -63,6 +63,49 @@
 
 Решение:
 
+BEGIN;
+
+ Переименование таблицы:
+
+ ALTER TABLE orders RENAME to orders_old;
+
+ Создание новой таблицы на основе старой и шардирование на 2 таблицы:
+
+ CREATE TABLE orders (
+   like orders_old 
+   including all
+ );
+
+ CREATE TABLE orders_1 (
+     CHECK (price>499)
+ ) INHERITS (orders);
+
+ CREATE TABLE orders_2 (
+     CHECK (price<=499)
+ ) INHERITS (orders);
+
+ Задание владельца:
+
+ ALTER TABLE orders_1 OWNER TO postgres;
+ ALTER TABLE orders_2 OWNER TO postgres;
+
+ Создание правил для шардов:
+
+ CREATE RULE orders_insert_over_499 AS ON INSERT TO orders
+ WHERE (price>499)
+ DO INSTEAD INSERT INTO orders_1 VALUES(NEW.*);
+
+ CREATE RULE orders_insert_499_or_less AS ON INSERT TO orders
+ WHERE (price<=499)
+ DO INSTEAD INSERT INTO orders_2 VALUES(NEW.*);
+
+ Копирование данных из старой таблицы в новую:
+
+ INSERT INTO orders (id,title,price) select id,title,price FROM orders_old
+
+COMMIT;
+
+
 ## Задача 4
 
 Используя утилиту `pg_dump`, создайте бекап БД `test_database`.
