@@ -45,9 +45,15 @@
 
 Решение:
 
-Создаю индексы: \
+1. Создаю индексы: \
 curl -X PUT http://localhost:9200/ind-1\?pretty -H 'Content-Type: application/json' -d'{ "settings": { "index": { "number_of_shards": 1, "number_of_replicas": 0 }}}' \
 curl -X PUT http://localhost:9200/ind-2\?pretty -H 'Content-Type: application/json' -d'{ "settings": { "index": { "number_of_shards": 2, "number_of_replicas": 1 }}}' \
 curl -X PUT http://localhost:9200/ind-3\?pretty -H 'Content-Type: application/json' -d'{ "settings": { "index": { "number_of_shards": 4, "number_of_replicas": 2 }}}'
+![image](https://user-images.githubusercontent.com/92155007/226620610-fba653d5-34d2-42bd-928a-d102d038d0e9.png)
+
+
+2. Получаю состояние кластера: 
+   ![image](https://user-images.githubusercontent.com/92155007/226620684-b06db26c-f740-4a36-a453-5ad777225057.png)
+
 
 
