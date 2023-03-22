@@ -97,7 +97,8 @@ curl -X PUT http://localhost:9200/ind-3\?pretty -H 'Content-Type: application/js
 
 2. ![image](https://user-images.githubusercontent.com/92155007/226886520-f39999f3-d54a-4be1-a8db-c2edf0ef9698.png)
 
-3. ![image](https://user-images.githubusercontent.com/92155007/226856729-3806985c-8f78-46ea-bf30-3734c4b231d1.png)
+3. ![image](https://user-images.githubusercontent.com/92155007/226887089-0324034d-da16-460b-9908-7c9ce837f86d.png)
+   ![image](https://user-images.githubusercontent.com/92155007/226887239-529d21a1-f6af-41ca-b600-5fc2fd4bf1ac.png)
 
 4. ![Screenshot from 2023-03-22 13-23-22](https://user-images.githubusercontent.com/92155007/226858135-63f572a2-af3a-4d56-aaaa-d6de28f3b2ce.png)
 
