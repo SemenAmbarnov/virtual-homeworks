@@ -92,17 +92,22 @@ curl -X PUT http://localhost:9200/ind-3\?pretty -H 'Content-Type: application/js
 
 
 Решение:
+    
+1. **Приведите в ответе** запрос API и результат вызова API для создания репозитория. 
+![image](https://user-images.githubusercontent.com/92155007/226853040-8a98d50d-3d15-424c-82aa-8af80fd42e0d.png)
 
-1. ![image](https://user-images.githubusercontent.com/92155007/226853040-8a98d50d-3d15-424c-82aa-8af80fd42e0d.png)
+2. Создайте индекс `test` с 0 реплик и 1 шардом и **приведите в ответе** список индексов.
+![image](https://user-images.githubusercontent.com/92155007/226886520-f39999f3-d54a-4be1-a8db-c2edf0ef9698.png)
 
-2. ![image](https://user-images.githubusercontent.com/92155007/226886520-f39999f3-d54a-4be1-a8db-c2edf0ef9698.png)
+3. **Приведите в ответе** список файлов в директории со `snapshot`ами.
+![image](https://user-images.githubusercontent.com/92155007/226887089-0324034d-da16-460b-9908-7c9ce837f86d.png)
+![image](https://user-images.githubusercontent.com/92155007/226887239-529d21a1-f6af-41ca-b600-5fc2fd4bf1ac.png)
 
-3. ![image](https://user-images.githubusercontent.com/92155007/226887089-0324034d-da16-460b-9908-7c9ce837f86d.png)
-   ![image](https://user-images.githubusercontent.com/92155007/226887239-529d21a1-f6af-41ca-b600-5fc2fd4bf1ac.png)
-
-4. ![image](https://user-images.githubusercontent.com/92155007/226887784-2ae229d9-a6ab-4f28-b7c8-3e8f337904e2.png)
-5. ![image](https://user-images.githubusercontent.com/92155007/226888861-379b9478-6eb6-4265-8075-a9e7c213275d.png)
-   ![image](https://user-images.githubusercontent.com/92155007/226888937-10bf68be-c9ea-47e0-9ea1-cf57fd284814.png)
+4. Удалите индекс `test` и создайте индекс `test-2`. **Приведите в ответе** список индексов.
+![image](https://user-images.githubusercontent.com/92155007/226887784-2ae229d9-a6ab-4f28-b7c8-3e8f337904e2.png)
+6. **Приведите в ответе** запрос к API восстановления и итоговый список индексов.
+![image](https://user-images.githubusercontent.com/92155007/226888861-379b9478-6eb6-4265-8075-a9e7c213275d.png)
+![image](https://user-images.githubusercontent.com/92155007/226888937-10bf68be-c9ea-47e0-9ea1-cf57fd284814.png)
 
 
 
