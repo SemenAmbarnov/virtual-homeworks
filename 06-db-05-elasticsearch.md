@@ -93,6 +93,13 @@ curl -X PUT http://localhost:9200/ind-3\?pretty -H 'Content-Type: application/js
 
 Решение:
 
+1. ![image](https://user-images.githubusercontent.com/92155007/226853040-8a98d50d-3d15-424c-82aa-8af80fd42e0d.png)
+
+2. ![image](https://user-images.githubusercontent.com/92155007/226853890-72b34034-e651-406f-8877-b43a4a74fe90.png)
+
+3. ![image](https://user-images.githubusercontent.com/92155007/226856729-3806985c-8f78-46ea-bf30-3734c4b231d1.png)
+
+4. ![Screenshot from 2023-03-22 13-23-22](https://user-images.githubusercontent.com/92155007/226858135-63f572a2-af3a-4d56-aaaa-d6de28f3b2ce.png)
 
 
 
